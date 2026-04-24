@@ -1,0 +1,413 @@
+<!DOCTYPE html>  
+
+<html lang="en">  
+
+<head>  
+
+<meta charset="UTF-8">  
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+<title>Naden Coffee Shop</title>  
+
+<style>  
+
+body {  
+
+    font-family: Arial, sans-serif;  
+
+    margin: 0;  
+
+    background: linear-gradient(to right, #3e2723, #5d4037, #8d6e63);  
+
+    color: #fff;  
+
+}  
+
+header {  
+
+    background: linear-gradient(to right, #4e342e, #6d4c41, #8d6e63);  
+
+    color: #fff3e0;  
+
+    padding: 25px;  
+
+    text-align: center;  
+
+}  
+
+nav ul {  
+
+    list-style: none;  
+
+    padding: 0;  
+
+}  
+
+nav ul li {  
+
+    display: inline;  
+
+    margin: 0 15px;  
+
+}  
+
+nav a {  
+
+    color: #ffe0b2;  
+
+    text-decoration: none;  
+
+    font-weight: bold;  
+
+}  
+
+section {  
+
+    padding: 40px;  
+
+}  
+
+.box {  
+
+    background-color: #efebe9;  
+
+    color: #3e2723;  
+
+    padding: 20px;  
+
+    border-radius: 15px;  
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);  
+
+}  
+
+h2 {  
+
+    color: #5d4037;  
+
+}  
+
+.gallery img {  
+
+    width: 230px;  
+
+    margin: 10px;  
+
+    border-radius: 15px;  
+
+}  
+
+table {  
+
+    border-collapse: collapse;  
+
+    width: 70%;  
+
+    margin-top: 15px;  
+
+}  
+
+table, th, td {  
+
+    border: 1px solid #5d4037;  
+
+}  
+
+th, td {  
+
+    padding: 10px;  
+
+    text-align: center;  
+
+}  
+
+input, textarea, select {  
+
+    width: 100%;  
+
+    padding: 8px;  
+
+    margin-top: 5px;  
+
+    border-radius: 8px;  
+
+    border: 1px solid #ccc;  
+
+}  
+
+button {  
+
+    background: #6d4c41;  
+
+    color: white;  
+
+    border: none;  
+
+    padding: 12px;  
+
+    cursor: pointer;  
+
+    border-radius: 10px;  
+
+    margin-top: 10px;  
+
+}  
+
+button:hover {  
+
+    background: #4e342e;  
+
+}  
+
+.quote {  
+
+    text-align: center;  
+
+    font-style: italic;  
+
+    margin-top: 20px;  
+
+    color: #6d4c41;  
+
+}  
+
+footer {  
+
+    background: linear-gradient(to right, #4e342e, #6d4c41, #8d6e63);  
+
+    color: #fff3e0;  
+
+    text-align: center;  
+
+    padding: 15px;  
+
+}  
+
+</style>  
+
+</head>  
+
+<body>  
+
+<header>  
+
+    <h1>☕ Naden Coffee Shop</h1>  
+
+    <p>Your daily dose of coffee & comfort 🤎</p>  
+
+    <nav>  
+
+        <ul>  
+
+            <li><a href="#home">Home</a></li>  
+
+            <li><a href="#menu">Menu</a></li>  
+
+            <li><a href="#gallery">Gallery</a></li>  
+
+            <li><a href="#contact">Order</a></li>  
+
+        </ul>  
+
+    </nav>  
+
+</header>  
+
+<main>  
+
+<section id="home">  
+
+    <div class="box">  
+
+        <h2>Welcome to Naden Coffee ☕</h2>  
+
+        <p>  
+
+        At <strong>Naden Coffee Shop</strong>, we serve freshly brewed coffee made from premium beans to give you the perfect start to your day.  
+
+        </p>  
+
+        <p>  
+
+        Whether you love strong espresso or sweet iced drinks, we’ve got something for every coffee lover.  
+
+        </p>  
+
+        <p class="quote">“Sip, relax, and enjoy the moment.”</p>  
+
+    </div>  
+
+</section>  
+
+<section id="menu">  
+
+    <div class="box">  
+
+        <h2>☕ Our Menu</h2>  
+
+        <h3>Hot Coffee</h3>  
+
+        <ul>  
+
+            <li>Espresso ☕</li>  
+
+            <li>Cappuccino ☕</li>  
+
+            <li>Latte ☕</li>  
+
+            <li>Americano ☕</li>  
+
+        </ul>  
+
+        <h3>Cold Drinks</h3>  
+
+        <ul>  
+
+            <li>Iced Coffee 🧊</li>  
+
+            <li>Iced Latte 🧊</li>  
+
+            <li>Caramel Macchiato 🧊</li>  
+
+            <li>Mocha Frappe 🧊</li>  
+
+        </ul>  
+
+        <h3>Price List</h3>  
+
+        <table>  
+
+            <tr>  
+
+                <th>Drink</th>  
+
+                <th>Price</th>  
+
+                <th>Description</th>  
+
+            </tr>  
+
+            <tr>  
+
+                <td>Regular Coffee</td>  
+
+                <td>₱50</td>  
+
+                <td>Classic brewed coffee</td>  
+
+            </tr>  
+
+            <tr>  
+
+                <td>Special Latte</td>  
+
+                <td>₱90</td>  
+
+                <td>Rich & creamy</td>  
+
+            </tr>  
+
+            <tr>  
+
+                <td>Frappe</td>  
+
+                <td>₱120</td>  
+
+                <td>Cold & refreshing</td>  
+
+            </tr>  
+
+        </table>  
+
+        <p class="quote">“Coffee first, everything else later.”</p>  
+
+    </div>  
+
+</section>  
+
+<section id="gallery">  
+
+    <div class="box">  
+
+        <h2>📸 Coffee Moments</h2>  
+
+        <div class="gallery">  
+
+            <img src="https://images.unsplash.com/photo- <a href="https://imgbb.com/"><img src="https://i.ibb.co/pBSqtrkJ/IMG-7308.jpg" alt="IMG 7308" border="0"></a>
+
+            <img src="https://images.unsplash.com/photo- <a href="https://imgbb.com/"><img src="https://i.ibb.co/ZRx23bnv/IMG-7299.jpg" alt="IMG 7299" border="0"></a>
+
+            <img src="https://images.unsplash.com/photo-<a href="https://imgbb.com/"><img src="https://i.ibb.co/KxnKb6Tg/IMG-7311.jpg" alt="IMG 7311" border="0"></a>
+
+            <img src="https://images.unsplash.com/photo-<a href="https://ibb.co/dwVV8LHr"><img src="https://i.ibb.co/YF11HyV3/IMG-7304.png" alt="IMG-7304" border="0"></a>
+
+        </div>  
+
+    </div>  
+
+</section>  
+
+<section id="contact">  
+
+    <div class="box">  
+
+        <h2>📞 Order Coffee</h2>  
+
+        <p><strong>Owner:</strong> Naden</p>  
+
+        <p><strong>Contact:</strong> 09XXXXXXXXX</p>  
+
+        <p><strong>Location:</strong> Your Location Here</p>  
+
+        <form>  
+
+            <label>Name:</label>  
+
+            <input type="text" required>  
+
+            <label>Email:</label>  
+
+            <input type="email" required>  
+
+            <label>Order Details:</label>  
+
+            <textarea rows="4"></textarea>  
+
+            <label>Choose Drink:</label>  
+
+            <select>  
+
+                <option>Espresso</option>  
+
+                <option>Cappuccino</option>  
+
+                <option>Latte</option>  
+
+                <option>Frappe</option>  
+
+            </select>  
+
+            <button type="submit">Order Now ☕</button>  
+
+        </form>  
+
+        <p class="quote">“Brewed fresh, served with love.”</p>  
+
+    </div>  
+
+</section>  
+
+</main>  
+
+<footer>  
+
+    <p>&copy; 2026 Naden Coffee Shop</p>  
+
+    <p>Made with ☕ & 🤎</p>  
+
+</footer>  
+
+</body>  
+
+</html>
